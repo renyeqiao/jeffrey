@@ -1,5 +1,4 @@
 rootProject.name = 'jeffrey'
 include 'utils'
-include 'functiona'
 include 'function'
 
