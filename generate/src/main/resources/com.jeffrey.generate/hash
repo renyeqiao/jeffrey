@@ -1,0 +1,7 @@
+HashMap
+
+HashTable
+
+ConcurrentHashMap
+
+负载因子: 0-1的数量，当容量达到负载因子，hash表扩容，容积翻倍
