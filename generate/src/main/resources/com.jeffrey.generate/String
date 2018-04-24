@@ -1,0 +1,5 @@
+String
+    final修饰类 不可变对象 读
+StringBuilder
+
+StringBuffer
