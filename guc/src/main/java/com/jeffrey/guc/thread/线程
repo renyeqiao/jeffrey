@@ -1,0 +1,6 @@
+线程的生命周期
+    新建 new
+    就绪 runnable
+    运行 run
+    阻塞 blocked
+    死亡 dead
