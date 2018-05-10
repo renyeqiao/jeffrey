@@ -1,7 +1,5 @@
-HashMap
-
-HashTable
-
-ConcurrentHashMap
-
-负载因子: 0-1的数量，当容量达到负载因子，hash表扩容，容积翻倍
+hashCode
+    1、主要用于数据查找的快捷性 java里面有HashMap HashTable等
+    2、如果两个对象的值相等，那么这两个对象equals一定返回true，两个对象的hashCode一定相等
+    3、如果对象的equals相等，那么对象的hashCode也要重写，并且差生HashCode使用的对象一定要和equals方法中使用的一致，否则就会违反上面提到的第2点
+    4、两个对象的hashCode相等不一定两个对象就相同，equals不一定返回true，只是说明他们放在同一个位置，反过来 如果equals相等那么hashCode一定相同，
