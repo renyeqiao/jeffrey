@@ -27,10 +27,14 @@ public class FunctionList {
     };
 
     void echo(List list) {
-        final String[] result = {null};
         list.forEach((a)->{
             System.out.println(a);
         });
+        this.invoke((a,b,c)->a+b+c);
+    }
+
+    void invoke(Invoker<String> invoke){
+        System.out.println(invoke.accept("a","b","c"));
     }
 
 }
