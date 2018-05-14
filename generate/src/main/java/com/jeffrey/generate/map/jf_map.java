@@ -19,7 +19,10 @@ public class jf_map {
      */
     public static void main(String args[]) throws InterruptedException {
         HashMap hashMap = new HashMap<String,String>();
-        hashMap.put("a","a") ;
+        int i = 0 ;
+        for(;;){
+            hashMap.put("a"+(i++),"a") ;
+        }
     }
 
 }
