@@ -10,6 +10,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public String getName(int id) {
+        System.out.println("do something");
         return null;
     }
 
