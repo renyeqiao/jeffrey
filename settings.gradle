@@ -2,6 +2,6 @@ rootProject.name = 'jeffrey'
 include 'utils'
 include 'function'
 include 'gc'
-include 'guc'
+include 'juc'
 include 'framework'
 
