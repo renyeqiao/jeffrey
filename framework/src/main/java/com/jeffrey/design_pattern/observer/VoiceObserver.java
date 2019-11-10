@@ -2,15 +2,15 @@ package com.jeffrey.design_pattern.observer;
 
 public class VoiceObserver implements Observer {
 
-    private Subject subject;
+	private Subject subject;
 
-    public VoiceObserver(Subject subject) {
-        this.subject = subject;
-        subject.register(this);
-    }
+	public VoiceObserver(Subject subject) {
+		this.subject = subject;
+		subject.register(this);
+	}
 
-    @Override
-    public void dosomething() {
-        System.out.println("你好，我收到消息了，开始行动");
-    }
+	@Override
+	public void dosomething() {
+		System.out.println("浣犲ソ锛屾垜鏀跺埌娑堟伅浜嗭紝寮�濮嬭鍔�");
+	}
 }

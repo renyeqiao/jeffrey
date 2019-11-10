@@ -1,5 +1,7 @@
 package com.jeffrey.aop;
 
+import com.jeffrey.aop.jdk.Resource;
+
 /**
  * @program: jeffrey
  * @author: Jeffrey
@@ -7,6 +9,11 @@ package com.jeffrey.aop;
  * @create: 2018-05-21 20:38
  **/
 public class UserServiceImpl implements UserService {
+
+
+    @Resource("Henry")
+    private String name;
+
 
     @Override
     public String getName(int id) {
